@@ -1,0 +1,419 @@
+/*** Mixins & Default Styles ***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: 'Comfortaa', cursive;
+}
+
+/*** Color Variables ***/
+/*** Centering Hack ***/
+/*** Header Styles ***/
+header {
+  width: 100vw;
+  height: 100vh;
+  background: #5661f2;
+  display: flex;
+}
+
+
+
+/*** Navigation Styles ***/
+nav {
+  width: 100vw;
+  height: 160px;
+  background: #46b2f0;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  position: fixed;
+  z-index: 10;
+  transition: all 0.3s;
+}
+nav.navShadow {
+  box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+  height: 100px;
+}
+nav.navShadow #word-mark {
+  opacity: 0;
+}
+
+#brand,
+#menu,
+ul {
+    list-style-type: none; 
+  display: flex;
+  align-items: center;
+}
+
+#brand {
+  padding-left: 40px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 55px;
+  height: 55px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2ea8ee;
+}
+
+#word-mark {
+  width: 120px;
+  height: 25px;
+  background: #fff;
+  border-radius: 90px;
+  margin-left: 20px;
+  opacity: 1;
+  transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*** Menu Styles ***/
+#menu {
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+      margin-left: 20px;
+    text-align: center;
+    
+}
+li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 60px;
+  background: #fff;
+    color: #2ea8ee;
+  border-radius: 50px;
+}
+
+#menu-toggle {
+  width: 55px;
+  height: 55px;
+  background: #2ea8ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+#menu-toggle:hover .bar {
+  width: 25px;
+}
+#menu-toggle.closeMenu .bar {
+  width: 25px;
+}
+#menu-toggle.closeMenu .bar:first-child {
+  -webkit-transform: translateY(7px) rotate(45deg);
+          transform: translateY(7px) rotate(45deg);
+}
+#menu-toggle.closeMenu .bar:nth-child(2) {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+#menu-toggle.closeMenu .bar:last-child {
+  -webkit-transform: translateY(-7px) rotate(-45deg);
+          transform: translateY(-7px) rotate(-45deg);
+}
+
+.bar {
+  width: 25px;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s ease-in-out;
+}
+.bar:nth-child(2) {
+  width: 20px;
+  margin: 5px 0;
+}
+.bar:last-child {
+  width: 15px;
+}
+
+/*** Hero Section Styles ***/
+#hero-section {
+  width: 100vw;
+  height: calc(100vh - 160px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+}
+
+#head-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 750px;
+  height: 30px;
+  background: #fff;
+  border-radius: 90px;
+  position: relative;
+}
+#head-line:before, #head-line:after {
+  
+  height: 30px;
+  border-radius: 90px;
+}
+#head-line:before {
+    content: "Технико-экономическое обоснование";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 360px;
+  background: #fff;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+#head-line:after {
+    content: "Выполнили студенты ТУСУРА кафедры АСУ специальности Прикладная информатика в экономике Меденцева А.В. и Птухина В. Н.";
+  width: 800px;
+height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: -60px;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+/*** Section Styles ***/
+section {
+  width: 100vw;
+  height: calc(120vh - 100px);
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section:nth-child(odd) {
+  background: #fa6c98;
+}
+section:nth-child(even) {
+  background: #79edfc;
+}
+
+#section01 {
+   height: 620vh; 
+}
+
+#section02 {
+    height: 400vh;
+}
+#section03 {
+    height: 350vh;
+}
+#section04 {
+    height: 170vh;
+}
+.sixthBlock {
+    display: none;
+}
+#heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  width: 220px;
+  height: 50px;
+  background: #fff;
+  border-radius: 90px;
+}
+
+#table1, #tablespendMain, #tablespendAnalog, #table9, #table10, #table11 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    height: 370px;
+}
+#table4, #table5, #table7, #table8, #tableEnergy {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    border-collapse: collapse;
+    height: 370px;
+    width: 750px;
+}
+#table2, #table3 {
+  margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#tableInception {
+    display: none;
+}
+#tablesumSpendDevelopment {
+    border-collapse: collapse;
+    width: 100%;
+}
+#tableCoeffs {
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+#tabledaysInMonth, #tableCoeffsMT, #tablemachineTime {
+   border: 1px solid black;
+    border-collapse: collapse; 
+    width: 750px;
+}
+#tableAmortization {
+    border: 1px solid black;
+    border-collapse: collapse; 
+    width: 750px;
+    margin-right: 400px;
+}
+th.red {
+    background: #FFF;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+th.red.title {
+    text-align: center;
+}
+td.disabled {
+    background: #fff;
+    padding: 10px 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+td.title {
+    text-align: center;
+}
+td.disabled:hover {
+    background: #fff;
+    padding: 10px 10px;
+    border: 1px solid black;
+    cursor: default;
+    color: black;
+}
+th.blue {
+    background: #fff;
+    padding: 10px 20px;
+    border: 1px solid black;
+    cursor: default;
+    color: black;
+    text-align: center;
+}
+th.blue.title {
+    text-align: center;
+}
+td {
+padding: 10px 20px;
+background: #F8E391;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+td:hover {
+    color: grey;
+    background: #f5d65c;
+}
+
+.great {
+    font-size: 24pt;
+    display: none;
+    justify-content: center;
+    background-color: rgb(58, 194, 34);
+}
+
+.error {
+    font-size: 24pt;
+    display: none;
+    justify-content: center;
+    background-color: brown;
+}
+
+
+
+/* СОСТОЯНИЕ РЕДАКТИРОВАНИЯ */
+
+input {
+    width: 100%;
+      border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+button.edit-ok {
+    margin-right: 16px;
+    margin-top: 6px;
+    padding: 10px;
+    border: 2px solid #509A7E;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+button.edit-cancel {
+    margin-right: 16px;
+    margin-top: 6px;
+    padding: 10px;
+    border: 2px solid #F07374;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button.edit-ok:hover {
+    color: #fff;
+    background-color: #509A7E;
+}
+
+button.edit-cancel:hover {
+    color: #fff;
+    background-color: #F07374;
+}
+
+/* responsive */
+
+@media screen and (max-height: 640px) {
+  #section00 {
+    height: 130vh;
+  }
+  #section01 {
+    height: 700vh;
+  }
+  #section02 {
+    height: 430vh;
+  }
+  #section03 {
+    height: 400vh;
+  }
+}

@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+	<html>
+		<head> 
+			<title>ТЭО</title>
+			<link rel="stylesheet" href="css/style.css">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Comfortaa|Exo+2&display=swap" rel="stylesheet">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+		</head>
+		<body>
+		<header>
+  <nav>
+        <div id="brand">
+          <div id="logo">ТЭО</div>
+            <div id="word-mark"><a href="Info.pdf">Справка</a></div>
+        </div>
+        <div id="menu">
+          <div id="menu-toggle">
+            <div id="menu-icon">
+              <div class="bar">1</div>
+              <div class="bar">1</div>
+              <div class="bar">1</div>
+            </div>
+          </div>
+          <ul>
+            <li><a href="#section00">Расчет КТУ</a></li>
+            <li><a href="#section01">Расчет план-графика работ</a></li>
+            <li><a href="#section02">Расчет затрат на разработку проекта</a></li>
+            <li><a href="#section03">Расчет эксплуатационных затрат</a></li>
+            <li><a href="#section04">Расчет показателей экономической эффективности</a></li>
+          </ul>
+        </div>
+  </nav>
+          <div id="hero-section">
+            <div id="head-line">Перед применением рекомендуем ознакомиться с <a href="agreement.html"> пользовательским соглашением</a></div>
+          </div>
+        </header>
+        <section id="section00">
+          <div id="heading">Расчет КТУ</div>
+    <table id="table1">
+        <tr>
+          <td class="disabled title" rowspan="2">Показатели качества</td>
+          <td class="disabled title" rowspan="2">Коэф. весомости, B<sub>j</sub></td>
+          <td class="disabled title" colspan="2">Проект</td>
+          <td class="disabled title" colspan="2">Аналог</td>
+          </tr>
+         <tr>
+          <td class="disabled">X<sub>j</sub></td>
+          <td class="disabled">B<sub>j</sub> * X<sub>j</sub></td>
+          <td class="disabled">X<sub>j</sub></td>
+          <td class="disabled">B<sub>j</sub> * X<sub>j</sub></td>
+         </tr>
+         <tr>
+          <td class="disabled">1. Удобство работы (пользовательский интерфейс)</td>
+          <td>0.14</td>
+          <td>4</td>
+          <td class="disabled">0.66</td>
+          <td>2</td>
+          <td class="disabled">0.28</td>
+        </tr>
+        <tr>
+          <td class="disabled">2.Новизна (соответствие современным требованиям)</td>
+          <td>0.1</td>
+          <td>4</td>
+          <td class="disabled">0.4</td>
+          <td>3</td>
+          <td class="disabled">0.3</td>
+        </tr>
+        <tr>
+          <td class="disabled">3.Соответствие профилю деятельности заказчика</td>
+          <td>0.2</td>
+          <td>4</td>
+          <td class="disabled">0.8</td>
+          <td>2</td>
+          <td class="disabled">0.4</td>
+        </tr>
+        <tr>
+          <td class="disabled">4.Ресурсная эффективность</td>
+          <td>0.05</td>
+          <td>4</td>
+          <td class="disabled">0.2</td>
+          <td>4</td>
+          <td class="disabled">0.2</td>
+        </tr>
+        <tr>
+          <td class="disabled">5.Надежность (защита данных)</td>
+          <td>0.13</td>
+          <td>3</td>
+          <td class="disabled">0.39</td>
+          <td>3</td>
+          <td class="disabled">0.39</td>
+        </tr>
+        <tr>
+          <td class="disabled">6.Скорость доступа к данным</td>
+          <td>0.1</td>
+          <td>4</td>
+          <td class="disabled">0.4</td>
+          <td>4</td>
+          <td class="disabled">0.4</td>
+        </tr>
+        <tr>
+          <td class="disabled">7.Гибкость настройки</td>
+          <td>0.06</td>
+          <td>3</td>
+          <td class="disabled">0.18</td>
+          <td>3</td>
+          <td class="disabled">0.18</td>
+        </tr>
+        <tr>
+          <td class="disabled">8.Обучаемость персонала</td>
+          <td>0.13</td>
+          <td>5</td>
+          <td class="disabled">0.65</td>
+          <td>1</td>
+          <td class="disabled">0.13</td>
+        </tr>
+        <tr>
+          <td class="disabled">9.Соотношение стоимость/возможности</td>
+          <td>0.09</td>
+          <td>4</td>
+          <td class="disabled">0.36</td>
+          <td>2</td>
+          <td class="disabled">0.18</td>
+        </tr>
+        <tr>
+        <td class="disabled title" colspan="2">Обобщенный показатель качества J<sub>эту</sub></td>
+        <td class="disabled" colspan="2">J<sub>эту1</sub> = 3.94</td>
+        <td class="disabled" colspan="2">J<sub>эту2</sub> = 2.46</td>
+        </tr>
+        <tr>
+        <td class="disabled title" colspan="2"><strong>Коэффициент технического совершенства, K<sub>t</sub></strong></td>
+        <td class="disabled" colspan="4">1.6</td>
+        </tr>
+    </table>
+        </section>
+        <section id="section01">
+          <div class="heading01" id="heading">Расчет план-графика работ</div>
+          <table id="table2">
+        <tr>
+            <td class="disabled title" rowspan="2">Содержание работ</td>
+            <td class="disabled" rowspan="2">Исполнители</td>
+            <td class="disabled" rowspan="2">Длительность, дни</td>
+            <td class="disabled" colspan="2">Загрузка</td>
+        </tr>
+        <tr>
+            <td class="disabled">дни</td>
+            <td class="disabled">%</td>
+        </tr>
+        <tr>
+            <td class="disabled title" colspan="5">1. Подготовка процесса разработки и анализ требований</td>
+        </tr>
+        <tr>
+            <td class="disabled title" colspan="5">1.1 Исследование и обоснование разработки</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">1.1.1 Постановка задачи</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">3</td>
+            <td>1</td>
+            <td class="disabled">33</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">1.1.2 Сбор исходных данных</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">14</td>
+            <td>5</td>
+            <td class="disabled">35</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled title" colspan="5">1.2 Поиск аналогов и прототипов</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">1.2.1 Анализ существующих методов решения задачи и программных средств</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">6</td>
+        <td>0</td>
+        <td class="disabled">0</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">1.2.2 Обоснование принципиальной необходимости разработки</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">2</td>
+            <td>1</td>
+            <td class="disabled">50</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled title" colspan="5">1.3 Анализ требований</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">1.3.1 Определение и анализ требований к проектируемой программе</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">3</td>
+            <td>1</td>
+            <td class="disabled">33</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">1.3.2 Определение структуры входных и выходных данных</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">3</td>
+            <td>1</td>
+            <td class="disabled">33</td>
+        </tr>
+        <tr>
+        <td>3</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">1.3.3 Выбор технических и программных средств реализации</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">3</td>
+            <td>1</td>
+            <td class="disabled">33</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">1.3.4 Согласование и утверждение технического задания</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">3</td>
+            <td>1</td>
+            <td class="disabled">33</td>
+        </tr>
+        <tr>
+            <td>3</td>
+           <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled title" rowspan="2"><strong>Итого по этапу 1</strong></td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td class="disabled title" rowspan="2">37</td>
+            <td class="disabled">11</td>
+            <td class="disabled">28</td>
+        </tr>
+        <tr>
+            <td class="disabled">37</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled title" colspan="5">2. Проектирование</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">2.1 Проектирование программной архитектуры</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">3</td>
+            <td>0</td>
+            <td class="disabled">0</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">2.2 Техническое проектирование компонентов программы</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">7</td>
+            <td>0</td>
+            <td class="disabled">0</td>
+        </tr>
+        <tr>
+            <td>7</td>
+           <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled title" rowspan="2"><strong>Итого по этапу 2</strong></td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td class="disabled title" rowspan="2">10</td>
+            <td class="disabled">0</td>
+            <td class="disabled">0</td>
+        </tr>
+        <tr>
+            <td class="disabled">10</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled title" colspan="5">3. Программирование и тестирование программных модулей</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">3.1 Программирование модулей в выбранной среде программирования</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">13</td>
+            <td>0</td>
+            <td class="disabled">0</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">3.2 Тестирование программных модулей</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">21</td>
+            <td>0</td>
+            <td class="disabled">0</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">3.3 Сборка и испытание программы</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">5</td>
+            <td>2</td>
+            <td class="disabled">40</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">3.4 Анализ результатов испытаний</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">5</td>
+            <td>1</td>
+            <td class="disabled">20</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled title" rowspan="2"><strong>Итого по этапу 3</strong></td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td class="disabled title" rowspan="2">44</td>
+            <td class="disabled">3</td>
+            <td class="disabled">7</td>
+        </tr>
+        <tr>
+            <td class="disabled">44</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled title" colspan="5">4. Оформление рабочей документации</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">4.1 Проведение расчетов показателей безопасности жизнедеятельности</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">3</td>
+            <td>0</td>
+            <td class="disabled">0</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">4.2 Проведение экономических расчетов</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">4</td>
+            <td>0</td>
+            <td class="disabled">0</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled" rowspan="2">4.3 Оформление пояснительной записки</td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td rowspan="2">15</td>
+            <td>5</td>
+            <td class="disabled">33</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled title" rowspan="2"><strong>Итого по этапу 4</strong></td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td class="disabled title" rowspan="2">22</td>
+            <td class="disabled">5</td>
+            <td class="disabled">23</td>
+        </tr>
+        <tr>
+            <td class="disabled">22</td>
+            <td class="disabled">100</td>
+        </tr>
+        <tr>
+            <td class="disabled title" rowspan="2"><strong>Итого по проекту</strong></td>
+            <td class="disabled" rowspan="2">Руководитель<br>Программист</td>
+            <td class="disabled title" rowspan="2">113</td>
+            <td class="disabled">19</td>
+            <td class="disabled">17</td>
+        </tr>
+        <tr>
+            <td class="disabled">113</td>
+            <td class="disabled">100</td>
+        </tr>
+    </table>
+    <table id="table3">
+        <tr><th class="blue" colspan="5">Календарный график выполнения работ</th></tr>
+        <tr><th class="blue" colspan="5">Данные по дням работы берутся из прошлой таблицы</th></tr>
+    	<tr>
+    	<td class="disabled title" rowspan="2">Содержание работы</td>
+    	<td class="disabled" rowspan="2">Исполнители</td>
+    	<td class="disabled" rowspan="2">Длительность, дни</td>
+    	<td class="disabled" colspan="2">График работ</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Начало</td>
+    	<td class="disabled">Конец</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">1. Постановка задачи</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">3</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">2. Сбор исходных данных</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">5</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">14</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">3. Анализ существующих методов решения задачи и программных средств</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">0</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">6</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">4. Обоснование принципиальной необходимости разработки</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">2</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">5. Определение и анализ требований к программе</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">3</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">6. Определение структуры входных и выходных данных</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">5</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">7. Выбор технических средств и программных средств реализации</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">3</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">8. Согласование и утверждение технического задания</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">5</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">14</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">9. Проектирование программной архитектуры</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">0</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">6</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">10. Техническое проектирование компонентов программы</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">2</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">11. Программирование модулей в выбранной среде программирования</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">3</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">12. Тестирование программных модулей</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">5</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">13. Сборка и испытание программы</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">3</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">14. Анализ результатов испытаний</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">5</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">14</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">15. Проведение расчетов показателей безопасности жизнедеятельности</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">0</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">6</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">16. Проведение экономических расчетов</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">2</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">17. Оформление пояснительной записки</td>
+    	<td class="disabled">Руководитель</td>
+    	<td class="disabled title">1</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td class="disabled title">3</td>
+    	<td class="disabled"></td>
+    	<td class="disabled"></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled title" colspan="2">Введите начальную дату (д/м/г): </td>
+    	<td>01</td>
+    	<td>01</td>
+    	<td>2019</td>
+    	</tr>
+    </table>
+        </section>
+        <section id="section02">
+          <div id="heading">Расчет затрат на разработку проекта</div>
+          <br>
+    <table id="tabledaysInMonth">
+        <tr><th class="blue" colspan="2">Введите количество рабочих дней в месяце</tr>
+    	<tr><td class="disabled">Количество рабочих дней в месяце: </td><td>22</td></tr>
+    </table>
+       
+    <table id="table4">
+        <tr>
+        <th class="blue" colspan="5">3. Расчет затрат на разработку проекта</th>
+        </tr>
+    	<tr>
+    	<td class="disabled">Должность</td>
+    	<td class="disabled">Должностной оклад, руб.</td>
+    	<td class="disabled">Средняя дневная ставка, руб.</td>
+    	<td class="disabled">Затраты времени на разработку, человекодней</td>
+    	<td class="disabled">ОЗП, руб.</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Руководитель</td>
+    	<td>19000</td>
+    	<td class="disabled">904,76</td>
+    	<td class="disabled">19</td>
+    	<td class="disabled">17190,48</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Программист</td>
+    	<td>7000</td>
+    	<td class="disabled">333,33</td>
+    	<td class="disabled">113</td>
+    	<td class="disabled">38333,33</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled title" colspan="4">Итого</td>
+    	<td class="disabled">55523,81</td>
+    	</tr>
+    </table>
+    <table id="tableCoeffsMT">
+        <tr>
+        <td class="disabled">Количество часов машинного времени в день</td>
+        <td>8</td>
+        </tr>
+    </table> <br>
+       
+    <table id="tablemachineTime">
+        <tr>
+        <th class="blue" colspan="2">Затраты на использование машинного времени</th>
+        </tr>
+    	<tr>
+    	<td class="disabled">Машинное время компьютера, необходимое для разработки программного продукта, ч.</td>
+    	<td class="disabled">460</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Cтоимость 1 часа машинного времени, руб/час.</td>
+    	<td>20</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Коэффициент мультипрограммности</td>
+    	<td>1</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled"><strong>Затраты на использование машинного времени</strong></td>
+    	<td class="disabled">9200</td>
+    	</tr>
+    </table>
+       <br>
+    <table id="table5">
+        <tr>
+        <th class="blue" colspan="5">Затраты на материалы</th>
+        </tr>
+    	<tr>
+    	<td class="disabled">Материалы</td>
+    	<td class="disabled">Единица измерения</td>
+    	<td class="disabled">Требуемое количество</td>
+    	<td class="disabled">Цена за единицу, руб</td>
+    	<td class="disabled">Сумма, руб</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Тетрадь общая</td>
+    	<td class="disabled">шт.</td>
+    	<td>1</td>
+    	<td>10</td>
+    	<td class="disabled">10</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Компакт-диск CD-RW</td>
+    	<td class="disabled">шт.</td>
+    	<td>2</td>
+    	<td>35</td>
+    	<td class="disabled">70</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Тонер для лазерного принтера</td>
+    	<td class="disabled">шт.</td>
+    	<td>1</td>
+    	<td>1000</td>
+    	<td class="disabled">1000</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Бумага офисная</td>
+    	<td class="disabled">пачка</td>
+    	<td>1</td>
+    	<td>120</td>
+    	<td class="disabled">120</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled title" colspan="4">Итого</td>
+    	<td class="disabled">1200</td>
+    	</tr>
+    </table>
+       <br>
+       <div class="rovno">
+    <table id="tablesumSpendDevelopment">
+        <tr>
+        <th class="blue" colspan="9">Суммарные затраты на проектирование системы, разработку и отладку</th>
+        </tr>
+    	<tr>
+    	<td class="disabled" rowspan="2">Количество работников, участвующих в разработке проекта</td>
+    	<td class="disabled" rowspan="2">Затраты на основную заработную плату работников, руб.</td>
+    	<td class="disabled" colspan="3">Коэффициент, учитывающий дополнительную заработную плату</td>
+    	<td rowspan="2" class="disabled">Коэффициент, учитывающий отчисления на социальные нужды</td>
+    	<td rowspan="2" class="disabled">Коэффициент, учитывающий накладные расходы организации</td>
+    	<td rowspan="2" class="disabled">Затраты на материалы, руб.</td>
+    	<td rowspan="2" class="disabled">Затраты на использование машинного времени, руб.</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled">Районный коэффициент</td>
+    	<td class="disabled">Коэффициент отпускных</td>
+    	<td class="disabled title">Итого</td>
+    	</tr>
+    	<tr>
+    	<td>2</td>
+    	<td class="disabled">55523</td>
+    	<td>0.3</td>
+    	<td>0.1</td>
+    	<td class="disabled">0.4</td>
+    	<td>0.302</td>
+    	<td>0.6</td>
+    	<td class="disabled">1200</td>
+    	<td class="disabled">9200</td>
+    	</tr>
+    	<tr>
+    	<td class="disabled title" colspan="9"><strong>Итого</strong></td>
+    	</tr>
+    	<tr>
+    	<td class="disabled title" colspan="9">144921.12</td>
+    	</tr>
+    </table>
+       </div>
+       <div class="sixthBlock">
+				<table id="table6">
+				<p>Смета затрат на разработку</p>
+					<tr><td>Статьи затрат</td><td>Сумма, руб.</td></tr>
+					<tr><td>Основная заработная плата</td><td>55523,81</td></tr>
+					<tr><td>Дополнительная зарплата</td><td>22209,52</td></tr>
+					<tr><td>Отчисления на социальные нужды</td><td>23475,47</td></tr>
+					<tr><td>Затраты на материалы</td><td>1200</td></tr>
+					<tr><td>Затраты на машинное время</td><td>9200</td></tr>
+					<tr><td>Накладные расходы организации</td><td>33314,29</td></tr>
+					<tr><td>ИТОГО</td><td>144923,09</td></tr>
+				</table>
+        </div>
+        <br>
+				<table id="tablespendMain">
+				    <tr><th class="blue" colspan="2">Затраты на внедрение аналога</th></tr>
+                    <tr><th class="blue" colspan="2">Затраты на основное и вспомогательное оборудование</th></tr>
+					<tr>
+					<td class="disabled">Балансовая стоимость, руб.</td>
+					<td>22500</td>
+					</tr>
+					<tr>
+					<td class="disabled">Количество единиц оборудования, ед.</td>
+					<td>1</td>
+					</tr>
+					<tr>
+					<td class="disabled">Коэф. загрузки оборудования</td>
+					<td class="disabled">0.75</td>
+					</tr>
+					<tr>
+					<td class="disabled">Эффективный годовой фонд времени работы тех. средства, час./год</td>
+					<td class="disabled">1976</td>
+					</tr>
+					<tr>
+					<td class="disabled">Трудоемкость обработки информации, часов машинного времени</td>
+					<td>6</td>
+					</tr>
+					<tr>
+					<td class="disabled">Периодичность решения задачи, дней/год</td>
+					<td>247</td>
+					</tr>
+					<tr>
+					<td class="disabled"><strong>Затраты на реализацию, руб.</strong></td>
+					<td class="disabled">16875</td>
+					</tr>
+					<tr>
+					<td class="disabled"><strong>Суммарные затраты на разработку проекта, руб.</strong></td>
+					<td class="disabled">161798</td>
+					</tr>
+				</table>
+       <br>
+				<table id="tablespendAnalog">
+                    <tr>
+                    <th class="blue" colspan="2">Суммарные затраты, связанные с внедрением аналога</th>
+                    </tr>
+					<tr>
+					<td class="disabled">Затраты на приобретение программного продукта, руб.</td>
+					<td class="disabled">37300</td>
+					</tr>
+					<tr>
+					<td class="disabled">Затраты по оплате услуг на установку и сопровождение продукта, руб.</td>
+					<td class="disabled">12000</td>
+					</tr>
+					<tr>
+					<td class="disabled">Затраты на основное и вспомогательное оборудование, руб.</td>
+					<td class="disabled">22500</td>
+					</tr>
+					<tr>
+					<td class="disabled">Затраты на подготовку пользователя, руб.</td>
+					<td class="disabled">9000</td>
+					</tr>
+					<tr>
+					<td class="disabled"><strong>Суммарные затраты, связанные с внедрением аналога, руб.</strong></td>
+					<td class="disabled">80800</td>
+					</tr>
+				</table>
+        </section>
+        <section id="section03">
+          <div id="heading">Расчет эксплуатационных затрат</div>
+          <table id="tableCoeffs">
+					<tr>
+					<td class="disabled">Количество рабочих дней в месяце</td>
+					<td class="disabled">22</td>
+					</tr>
+					<tr>
+                     <td class="disabled">Районный коэффициент</td>
+                     <td class="disabled">0.3</td>
+                     </tr>
+          </table> <br>
+				<table id="table7">
+                    <tr>
+                    <th class="blue" colspan="5">Данные по заработной плате специалистов (для проекта)</th>
+                    </tr>
+					<tr>
+					<td class="disabled">Должность</td>
+					<td class="disabled">Должностной оклад, руб.</td>
+					<td class="disabled">Средняя дневная ставка, руб./день</td>
+					<td class="disabled">Затраты времени на эксплуатацию, человеко-дней</td>
+					<td class="disabled">Фонд заработной платы, руб.</td>
+					</tr>
+					<tr>
+					<td class="disabled">Сотрудник отдела</td>
+					<td>15000</td>
+					<td class="disabled">714,29</td>
+					<td>40</td>
+					<td>52080,0</td>
+					</tr>
+					<tr>
+					<td class="disabled">Программист</td>
+					<td>10000</td>
+					<td class="disabled">476,19</td>
+					<td>20</td>
+					<td>17360,0</td>
+					</tr>
+					<tr>
+					<td class="disabled title" colspan="4">Итого (с учетом начисл.), руб.</td>
+					<td class="disabled">69440,0</td>
+					</tr>
+				</table>
+				<table id="table8">
+                    <tr><th class="blue" colspan="5">Данные по заработной плате специалистов (для продукта-аналога)</th></tr>
+					<tr>
+					<td class="disabled">Должность</td>
+					<td class="disabled">Должностной оклад, руб.</td>
+					<td class="disabled">Средняя дневная ставка, руб./день</td>
+					<td class="disabled">Затраты времени на эксплуатацию, человеко-дней</td>
+					<td class="disabled">Фонд заработной платы, руб.</td>
+					<tr>
+					<td class="disabled">Сотрудник отдела</td>
+					<td>15000</td>
+					<td class="disabled">714,29</td>
+					<td>60</td>
+					<td>78120</td>
+					</tr>
+					<tr>
+					<td class="disabled">Программист</td>
+					<td>10000</td>
+					<td class="disabled">476,19</td>
+					<td>40</td>
+					<td>21706,2</td>
+					</tr>
+					<tr>
+					<td class="disabled title" colspan="4">Итого (с учетом начисл.), руб.</td>
+					<td class="disabled">112840</td>
+					</tr>
+				</table>
+				<table id="tableAmortization">
+                    <tr>
+                    <th class="blue" colspan="7">Расчёт амортизационных отчислений</th>
+                    </tr>
+					<tr>
+					<td class="disabled">Балансовая стоимость оборудования, руб.</td>
+					<td class="disabled">Время работы оборудования, час</td>
+					<td class="disabled">Норма годовых амортизационных отчислений для оборудования, руб.</td>
+					<td class="disabled">Эффективный фонд времени работы оборудования в год, час</td>
+					<td class="disabled">Количество единиц оборудования</td>
+					<td class="disabled">Количество рабочих дней в году</td>
+					<td class="disabled">Норматив среднесуточной загрузки, час./день</td>
+					</tr>
+					<tr>
+					<td>22500</td>
+					<td class="disabled">480</td>
+					<td>0.2</td>
+					<td class="disabled">2056</td>
+					<td>1</td>
+					<td>257</td>
+					<td>8</td>
+					</tr>
+					<tr>
+					<td>22500</td>
+					<td class="disabled">800</td>
+					<td>0.2</td>
+					<td class="disabled">2056</td>
+					<td>1</td>
+					<td>257</td>
+					<td>8</td>
+					</tr>
+					<tr>
+					<td class="disabled title" colspan="5"><strong>Сумма амортизационных отчислений для проекта, руб.</strong></td>
+					<td class="disabled" colspan="2">1050.58</td>
+					</tr>
+					<tr>
+					<td class="disabled title" colspan="5"><strong>Сумма амортизационных отчислений для аналога, руб.</strong></td>
+					<td class="disabled" colspan="2">1750.97</td>
+					</tr>
+				</table>
+       
+				<table id="tableEnergy">
+                    <tr>
+                    <th class="blue" colspan="4">Расчёт силовой энергии технических средств</th>
+                    </tr>
+					<tr>
+					<td class="disabled">Установленная мощность технических средств, кВт</td>
+					<td class="disabled">Время работы технических средств, час</td>
+					<td class="disabled">Коэффициент использования установленной мощности оборудования</td>
+					<td class="disabled">Тариф на электроэнергию, руб./кВт ч</td>
+					</tr>
+					<tr>
+					<td>480</td>
+					<td>1</td>
+					<td>0.4</td>
+					<td>2.6</td>
+					</tr>
+					<tr>
+					<td>800</td>
+					<td>1</td>
+					<td>0.4</td>
+					<td>2.6</td>
+					</tr>
+					<tr>
+					<td class="disabled" colspan="2"><strong>Затраты на силовую энергию для проекта, руб.</strong></td>
+					<td class="disabled title" colspan="2">499.20</td>
+					</tr>
+					<tr>
+					<td class="disabled" colspan="2"><strong>Затраты на силовую энергию для аналога, руб.</strong></td>
+					<td class="disabled title" colspan="2">832.20</td>
+					</tr>
+				</table>
+				<table id="table9">
+                    <tr>
+                    <th class="blue" colspan="5">Годовые эксплуатационные затраты</th>
+                    </tr>
+					<tr>
+					<td class="disabled title">Статьи затрат</td>
+					<td class="disabled">Затраты на проект, руб.</td>
+					<td class="disabled">Затраты на аналог, руб</td>
+					</tr>
+					<tr>
+					<td class="disabled">Основная и дополнительная зарплата с отчислениями</td>
+					<td class="disabled title">69440,00</td>
+					<td class="disabled title">112840,00</td>
+					</tr>
+					<tr>
+					<td class="disabled">Амортизационные отчисления</td>
+					<td class="disabled title">1093,12</td>
+					<td class="disabled title">1821,86</td>
+					</tr>
+					<tr>
+					<td class="disabled">Затраты на электроэнергию</td>
+					<td class="disabled title">499,20</td>
+					<td class="disabled title">832,00</td>
+					</tr>
+					<tr>
+					<td class="disabled">Затраты на текущий ремонт</td>
+					<td class="disabled title">273,28</td>
+					<td class="disabled title">455,47</td>
+					</tr>
+					<tr>
+					<td class="disabled">Затраты на материалы</td>
+					<td class="disabled title">225,00</td>
+					<td class="disabled title">225,00</td>
+					</tr>
+					<tr>
+					<td class="disabled">Накладные расходы</td>
+					<td class="disabled title">14306,12</td>
+					<td class="disabled title">23234,87</td>
+					</tr>
+					<tr>
+					<td class="disabled title">Итого</td>
+					<td class="disabled title">85836,72</td>
+					<td class="disabled title">139409,19</td>
+					</tr>
+				</table>
+       
+				<table id="tableInception">
+                    <tr>
+                    <th class="blue" colspan="4">Суммарные затраты, связанные с внедрением аналога</th>
+                    </tr>
+					<tr>
+					<td class="disabled">Затраты на приобретение программного продукта, руб.</td>
+					<td class="disabled">Затраты по оплате услуг на установку и сопровождение продукта, руб.</td>
+					<td class="disabled">Затраты на основное и вспомогательное оборудование, руб.</td>
+					<td class="disabled">Затраты на подготовку пользователя, руб.</td>
+					</tr>
+					<tr>
+					<td class="disabled">37300</td>
+					<td class="disabled">12000</td>
+					<td class="disabled">22500</td>
+					<td class="disabled">9000</td>
+					</tr>
+					<tr>
+					<td class="disabled" colspan = "2">Итого: </td>
+					<td class="disabled" colspan="2">80800</td>
+					</tr>
+				</table>
+        </section>
+        <section id="section04">
+          <div id="heading">Расчет показателей экономической эффективности</div>
+          
+				<table id="table10">
+                    <tr>
+                    <th class="blue" colspan="5">Экономический эффект</th>
+                    </tr>
+					<tr>
+					<td class="disabled title" rowspan="2">Характеристика</td>
+					<td class="disabled title" colspan="2">Значение</td>
+					</tr>
+					<tr>
+					<td class="disabled">Продукт-аналог</td>
+					<td class="disabled">Разрабатываемый продукт</td>
+					</tr>
+					<tr>
+					<td class="disabled">Себестоимость (текущие эксплуатационные затраты), руб.</td>
+					<td class="disabled title">139409,19</td>
+					<td class="disabled title">85836,72</td>
+					</tr>
+					<tr>
+					<td class="disabled">Суммарные затраты, связанные с внедрением проекта, руб.</td>
+					<td class="disabled title">80800,00</td>
+					<td class="disabled title">161798,09</td>
+					</tr>
+					<tr>
+					<td class="disabled">Приведенные затраты на единицу работ, руб.</td>
+					<td class="disabled title">166073,19</td>
+					<td class="disabled title">139230,08</td>
+					</tr>
+					<tr>
+					<td class="disabled">Экономический эффект от использования разрабатываемой системы, руб.</td>
+					<td class="disabled title" colspan="2">126757,06</td>
+					</tr>
+				</table>
+       
+				<table id="table11">
+                    <tr>
+                    <th class="blue" colspan="5">Результаты экономического обоснования проекта</th>
+                    </tr>
+					<tr>
+					<td class="disabled title">Характеристика проекта</td>
+					<td class="disabled">Значение</td>
+					</tr>
+					<tr>
+					<td class="disabled">Затраты на разработку и внедрение проекта, руб.</td>
+					<td class="disabled">161798,09</td>
+					</tr>
+					<tr>
+					<td class="disabled">Общие эксплуатационные затраты, руб.</td>
+					<td class="disabled">85836,72</td>
+					</tr>
+					<tr>
+					<td class="disabled">Экономический эффект, руб. </td>
+					<td class="disabled">126757,06</td>
+					</tr>
+					<tr>
+					<td class="disabled">Коэффициент экономической эффективности</td>
+					<td class="disabled title">0,78</td>
+					</tr>
+					<tr>
+					<td class="disabled">Срок окупаемости, лет</td>
+					<td class="disabled title">1,28</td>
+					</tr>
+				</table>
+           <div class="theEnd">
+				<p class="great">Поздравляем, проект успешен</p>
+				<p class="error">К сожалению, проект провален. Поменяйте данные.</p>
+			</div>
+        </section>
+         <script src="js/core.js"></script>
+        </body>
+</html>

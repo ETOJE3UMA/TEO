@@ -1,0 +1,8 @@
+* {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+pre {
+    margin-left: 10%;
+    max-width: 800px;
+}
